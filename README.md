@@ -9,12 +9,12 @@ Static landing page for PromptSnip, ready for GitHub Pages.
 3. Open **Settings → Pages** in GitHub.
 4. Under **Build and deployment**, select **Deploy from a branch**.
 5. Select `main`, choose `/ (root)`, and click **Save**.
-6. Open `https://engnoumansiddiqui.github.io/promptsnip-site/` after GitHub finishes the deployment.
+6. Open `https://promptsnip.noumaniasoft.com/` after GitHub finishes the deployment.
 
 ## Google indexing
 
 Add the exact site URL to Google Search Console, verify ownership, then submit:
 
-`https://engnoumansiddiqui.github.io/promptsnip-site/sitemap.xml`
+`https://promptsnip.noumaniasoft.com/sitemap.xml`
 
 The extension CTA and privacy policy links are already configured.
