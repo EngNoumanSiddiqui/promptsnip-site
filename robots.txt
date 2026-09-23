@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://promptsnip.noumaniasoft.com/sitemap.xml
+Sitemap: https://engnoumansiddiqui.github.io/promptsnip-site/sitemap.xml
