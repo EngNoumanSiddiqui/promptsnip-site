@@ -1,20 +1,26 @@
-# PromptSnip Landing Page
+# PromptSnip 2.0 Website — Polished Multi-page Version
 
-Static landing page for PromptSnip, ready for GitHub Pages.
+This package incorporates the latest PromptSnip 2.0 product updates and the review feedback from the supplied screenshots.
+
+## Improvements
+
+- Uses the supplied official PromptSnip icon throughout the website.
+- Replaces hash-only navigation with understandable pages:
+  - `index.html`
+  - `features.html`
+  - `how-it-works.html`
+  - `privacy.html`
+  - `faq.html`
+- Active navigation state on every page.
+- Improved feature-card hover animation, accent lines, icon treatments and elevation.
+- New visual workflow/progress section.
+- Stronger PromptSnip purple/pink theme across Free Plan, Privacy, CTA and footer.
+- Better structured footer with Product, Trust and Chrome Web Store navigation.
+- Responsive mobile navigation and layouts.
+- Updated sitemap for all pages.
+- Chrome Web Store links use extension ID `cakhbcndlnpibpnpaebmmhgjoddcnhfo`.
+- Full privacy policy remains linked externally.
 
 ## Publish
 
-1. Upload every file and folder in this package to the root of the `promptsnip-site` repository.
-2. Commit the files to the `main` branch.
-3. Open **Settings → Pages** in GitHub.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select `main`, choose `/ (root)`, and click **Save**.
-6. Open `https://engnoumansiddiqui.github.io/promptsnip-site/` after GitHub finishes the deployment.
-
-## Google indexing
-
-Add the exact site URL to Google Search Console, verify ownership, then submit:
-
-`https://engnoumansiddiqui.github.io/promptsnip-site/sitemap.xml`
-
-The extension CTA and privacy policy links are already configured.
+Replace the existing GitHub Pages repository contents with this package, commit, and push.
