@@ -1181,6 +1181,7 @@ a {
   opacity: 1;
   transform: none;
 }
+
 @keyframes pulse {
   0%,
   100% {
@@ -1190,6 +1191,7 @@ a {
     box-shadow: 0 0 0 8px rgba(34, 197, 94, 0.04);
   }
 }
+
 @keyframes float {
   0%,
   100% {
@@ -1199,6 +1201,7 @@ a {
     transform: translateY(-8px);
   }
 }
+
 @media (max-width: 1050px) {
   .hero-grid,
   .page-hero-inner,
@@ -1238,6 +1241,7 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
 @media (max-width: 760px) {
   .container {
     width: min(calc(100% - 28px), var(--container));
@@ -1377,6 +1381,7 @@ a {
     transform: rotate(90deg);
   }
 }
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;
@@ -1389,7 +1394,6 @@ a {
   }
 }
 
-/* PromptSnip 2.0 authentic interface showcase */
 .ps-icon {
   height: 23px;
   width: 23px;
@@ -1608,6 +1612,7 @@ a {
   height: 25px;
   color: #752de4;
 }
+
 @media (max-width: 1050px) {
   .preview-strip {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1620,6 +1625,7 @@ a {
     height: 485px;
   }
 }
+
 @media (max-width: 760px) {
   .real-product-stage {
     min-height: 455px;
@@ -1666,6 +1672,7 @@ a {
     max-height: 210px;
   }
 }
+
 @media (max-width: 390px) {
   .hero-shot {
     height: 350px;
@@ -1678,7 +1685,6 @@ a {
   }
 }
 
-/* Real PromptSnip UI examples - How it works */
 .process-step .process-icon {
   display: inline-flex;
   margin-bottom: 14px;
@@ -1692,10 +1698,12 @@ a {
   border-radius: 16px;
   box-shadow: 0 6px 16px rgba(109, 40, 217, 0.08);
 }
+
 .process-icon .ps-icon {
   width: 23px;
   height: 23px;
 }
+
 .process-visual-real {
   display: block;
   min-width: 0;
@@ -1705,12 +1713,14 @@ a {
   border: 1px solid #e9defa;
   overflow: hidden;
 }
+
 .process-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   align-items: start;
 }
+
 .process-shot {
   min-width: 0;
   margin: 0;
@@ -1720,6 +1730,7 @@ a {
   border-radius: 14px;
   box-shadow: 0 10px 24px rgba(47, 18, 100, 0.08);
 }
+
 .process-shot img {
   display: block;
   width: 100%;
@@ -1729,6 +1740,7 @@ a {
   border-radius: 8px;
   background: #faf8fd;
 }
+
 .process-shot figcaption {
   text-align: center;
   color: #5f5274;
@@ -1737,10 +1749,12 @@ a {
   line-height: 1.4;
   margin-top: 9px;
 }
+
 .process-step:target {
   border-color: #a78bfa;
   box-shadow: 0 14px 36px rgba(109, 40, 217, 0.13);
 }
+
 @media (max-width: 1100px) {
   .process-step {
     grid-template-columns: 1fr;
@@ -1749,6 +1763,7 @@ a {
     height: 280px;
   }
 }
+
 @media (min-width: 1101px) {
   .process-step {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
@@ -1758,6 +1773,7 @@ a {
     font-size: 12px;
   }
 }
+
 @media (max-width: 600px) {
   .process-gallery {
     gap: 8px;
@@ -1779,7 +1795,6 @@ a {
   }
 }
 
-/* How It Works: new zoomed UI walk-through cards */
 .process-visual-custom {
   width: 100%;
   min-width: 0;
@@ -1789,10 +1804,12 @@ a {
   box-shadow: none;
   overflow: visible;
 }
+
 .process-visual-custom .story-figure {
   margin: 0;
   max-width: 100%;
 }
+
 .process-visual-custom .story-figure img {
   display: block;
   width: 100%;
@@ -1801,10 +1818,12 @@ a {
   box-shadow: 0 18px 44px rgba(69, 39, 132, 0.12);
   border: 1px solid #e1d9f0;
 }
+
 .process-icon svg {
   width: 25px;
   height: 25px;
 }
+
 @media (max-width: 760px) {
   .process-visual-custom .story-figure img {
     border-radius: 13px;
@@ -1817,5 +1836,226 @@ a {
   }
   .privacy-hero-mark {
     display: none;
+  }
+}
+
+.product-stage.real-product-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 440px;
+  padding: 0;
+  overflow: visible;
+}
+
+.product-stage .hero-illustration {
+  position: relative;
+  width: 118%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  border-radius: 24px;
+  box-shadow: 0 26px 72px rgba(69, 30, 127, 0.15);
+  border: 1px solid rgba(132, 83, 217, 0.12);
+}
+
+.card-screen {
+  padding: 0;
+  max-height: none;
+  margin: 20px -6px 16px;
+  aspect-ratio: 8/5;
+}
+
+.card-screen img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.demo-screens {
+  align-items: stretch;
+}
+
+.demo-screen {
+  overflow: hidden;
+}
+
+.demo-screen img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.preview-strip img {
+  width: 100%;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+}
+
+.story-figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+@media (max-width: 820px) {
+  .product-stage.real-product-stage {
+    min-height: 0;
+    margin: 14px 0;
+  }
+  .product-stage .hero-illustration {
+    width: 100%;
+  }
+}
+
+img[src*="assets/illustrations/"] {
+  cursor: zoom-in;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (hover: hover) {
+  img[src*="assets/illustrations/"]:hover {
+    transform: translateY(-4px) scale(1.025);
+    box-shadow: 0 18px 45px rgba(98, 46, 190, 0.16);
+  }
+}
+
+.ps-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 70px;
+  background: rgba(13, 9, 35, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ps-lightbox.is-open {
+  display: flex;
+  animation: ps-fade-in 0.25s ease;
+}
+
+.ps-lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100dvh - 130px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.45);
+}
+
+.ps-lightbox-control {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  font-size: 30px;
+  font-family: inherit;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.ps-lightbox-control:hover {
+  background: #7435e8;
+  transform: scale(1.07);
+}
+
+.ps-lightbox-control:focus-visible {
+  outline: 3px solid #bca2ff;
+  outline-offset: 3px;
+}
+
+.ps-lightbox-close {
+  top: 18px;
+  right: 22px;
+}
+
+.ps-lightbox-prev {
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ps-lightbox-next {
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ps-lightbox-prev:hover,
+.ps-lightbox-next:hover {
+  transform: translateY(-50%) scale(1.07);
+}
+
+.ps-lightbox-caption {
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+  right: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.ps-lightbox-count {
+  color: #c4b5fd;
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .ps-lightbox {
+    padding: 65px 12px 85px;
+  }
+
+  .ps-lightbox-image {
+    max-height: calc(100dvh - 155px);
+    border-radius: 10px;
+  }
+
+  .ps-lightbox-control {
+    width: 38px;
+    height: 38px;
+    font-size: 25px;
+  }
+
+  .ps-lightbox-prev {
+    left: 8px;
+  }
+
+  .ps-lightbox-next {
+    right: 8px;
+  }
+}
+
+@keyframes ps-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ps-lightbox,
+  img[src*="assets/illustrations/"] {
+    animation: none !important;
+    transition: none !important;
   }
 }

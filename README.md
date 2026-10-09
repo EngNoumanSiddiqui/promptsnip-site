@@ -1,26 +1,29 @@
-# PromptSnip 2.0 Website — Polished Multi-page Version
+# PromptSnip V2 — AI Prompt Generator
 
-This package incorporates the latest PromptSnip 2.0 product updates and the review feedback from the supplied screenshots.
+**See it. Select it. Prompt it.**
 
-## Improvements
+PromptSnip is an AI-powered Chrome extension that turns user-selected or uploaded content into structured, ready-to-use AI prompts.
 
-- Uses the supplied official PromptSnip icon throughout the website.
-- Replaces hash-only navigation with understandable pages:
-  - `index.html`
-  - `features.html`
-  - `how-it-works.html`
-  - `privacy.html`
-  - `faq.html`
-- Active navigation state on every page.
-- Improved feature-card hover animation, accent lines, icon treatments and elevation.
-- New visual workflow/progress section.
-- Stronger PromptSnip purple/pink theme across Free Plan, Privacy, CTA and footer.
-- Better structured footer with Product, Trust and Chrome Web Store navigation.
-- Responsive mobile navigation and layouts.
-- Updated sitemap for all pages.
-- Chrome Web Store links use extension ID `cakhbcndlnpibpnpaebmmhgjoddcnhfo`.
-- Full privacy policy remains linked externally.
+## Supported Media & Features
 
-## Publish
+- **Webpage Selection:** Capture individual elements or multiple regions from a webpage.
+- **Images:** Upload or paste a single image or multiple images.
+- **Text:** Paste or type text and provide additional instructions.
+- **PDF Documents:** Upload PDF files for AI-powered prompt generation.
+- **Videos:** Upload supported video files or provide supported public video URLs.
+- **Audio:** Upload supported audio files for AI prompt generation.
+- **Prompt Customization:** Select or automatically detect a suitable prompt type, add instructions, and regenerate results.
+- **History:** Review, copy, and reuse previously generated prompts.
+- **Credits:** Check available credits and request additional usage.
 
-Replace the existing GitHub Pages repository contents with this package, commit, and push.
+## How It Works
+
+1. **Add Content:** Select webpage content, enter text, or upload supported media.
+2. **Customize:** Choose a prompt type and add optional instructions.
+3. **Generate:** Create an AI-ready prompt using your content.
+4. **Reuse:** Copy, share, regenerate, or revisit previous prompts.
+
+Supported file formats, size limits, and video URL compatibility depend on the extension's current processing capabilities.
+
+**Website:** https://promptsnip.noumaniasoft.com  
+**Developed by NoumaniaSoft.**
